@@ -1,0 +1,25 @@
+{
+  "name": "handyman-marketplace",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon  app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.11",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "web3": "^4.9.0"
+  }
+}
